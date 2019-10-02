@@ -1,4 +1,5 @@
-﻿  tbitfield.cpp
+﻿  Building Custom Rule C:/Users/olejk/Desktop/mp2-lab1-set/src/CMakeLists.txt
+  tbitfield.cpp
   tset.cpp
   Создание кода...
-c:\users\olejk\desktop\mp2-lab1-set\src\tset.cpp(30): error C4716: TSet::operator TBitField: должна возвращать значение
+  set.vcxproj -> C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\lib\Debug\set.lib
