@@ -1,0 +1,6 @@
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/CMakeFiles/ALL_BUILD.dir
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/CMakeFiles/ZERO_CHECK.dir
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/src/CMakeFiles/set.dir
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/gtest/CMakeFiles/gtest.dir
+C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/test/CMakeFiles/test_set.dir
