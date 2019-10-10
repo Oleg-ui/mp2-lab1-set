@@ -7,7 +7,7 @@
 
 #include "tbitfield.h"
 
-TBitField::TBitField(int len): Bitlen(len), MemLen((BitLen / (8 * sizeof(TELEM))) + 1)
+TBitField::TBitField(int len): BitLen(len), MemLen((BitLen / (8 * sizeof(TELEM))) + 1)
 {
 	if (len < 0)
 	{
@@ -145,6 +145,7 @@ int TBitField::operator!=(const TBitField &bf) const // сравнение
 		}
 	}
 	return true;
+}
 
 
 TBitField TBitField::operator|(const TBitField &bf) // операция "или"
@@ -187,7 +188,7 @@ TBitField TBitField::operator&(const TBitField &bf) // операция "и"
 TBitField TBitField::operator~(void) // отрицание
 {
 	TBitField tmp = *this;
-	for (int i = 0; i < temp.BitLen; i++)
+	for (int i = 0; i < tmp.BitLen; i++)
 	{
 		if (tmp.GetBit(i))
 		{
@@ -205,22 +206,20 @@ TBitField TBitField::operator~(void) // отрицание
 
 istream &operator>>(istream &istr, TBitField &bf) // ввод
 {
-	string tmp;
-	istr >> tmp;
-	if (tmp.size() != bf.GetLength())
-	{
-		throw("Error(Incorrect lenght)");
+	int i = 0;
+	char ch;
+	// поиск {
+	do {
+		istr >> ch;
+	} while (ch != ' ');
+	// ввод элементов и включение в множество
+	while (1) {
+		istr >> ch;
+		if (ch == '0')
+			bf.ClrBit(i++);
+		else if (ch == '1')
+			bf.SetBit(i++); else break;
 	}
-	for (int i = 0; i < bf.BitLen; i++)
-		switch (tmp[i])
-		{
-		case 1:
-			bf.SetBit(i);
-		case 0:
-			bf.ClrBit(i);
-		default:
-			throw("Error(Incorrect input)");
-		}
 	return istr;
 }
 
