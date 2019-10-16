@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zhafjarov.o/Desktop/mp2-lab1-set
+# Install script for directory: C:/Users/olejk/Desktop/mp2-lab1-set
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/src/cmake_install.cmake")
-  include("C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/samples/cmake_install.cmake")
-  include("C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/gtest/cmake_install.cmake")
-  include("C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/test/cmake_install.cmake")
+  include("C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/src/cmake_install.cmake")
+  include("C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/samples/cmake_install.cmake")
+  include("C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/gtest/cmake_install.cmake")
+  include("C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/test/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

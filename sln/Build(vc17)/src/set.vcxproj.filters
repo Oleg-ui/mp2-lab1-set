@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\src\tbitfield.cpp">
+    <ClCompile Include="C:\Users\olejk\Desktop\mp2-lab1-set\src\tbitfield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\src\tset.cpp">
+    <ClCompile Include="C:\Users\olejk\Desktop\mp2-lab1-set\src\tset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include\tbitfield.h">
+    <ClInclude Include="C:\Users\olejk\Desktop\mp2-lab1-set\include\tbitfield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include\tset.h">
+    <ClInclude Include="C:\Users\olejk\Desktop\mp2-lab1-set\include\tset.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\olejk\Desktop\mp2-lab1-set\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A0AE7F02-79BD-3DD6-88C1-196FD6CAD38C}</UniqueIdentifier>
+      <UniqueIdentifier>{082E8CDF-2731-3ADE-961F-6A7AC8E2A38E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{DAAC85DE-FDAD-3AEE-A175-EBAD1989E840}</UniqueIdentifier>
+      <UniqueIdentifier>{97EA1709-71BA-3394-B716-F258D4502ED9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

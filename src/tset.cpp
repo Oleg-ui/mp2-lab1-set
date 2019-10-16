@@ -25,7 +25,8 @@ TSet::TSet(const TBitField& bf) : BitField(bf)
 
 TSet::operator TBitField()
 {
-	return BitField;
+	TBitField tmp(this->BitField);
+	return tmp;
 }
 
 int TSet::GetMaxPower(void) const // получить макс. к-во эл-тов

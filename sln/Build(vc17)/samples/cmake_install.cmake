@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/samples
+# Install script for directory: C:/Users/olejk/Desktop/mp2-lab1-set/samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

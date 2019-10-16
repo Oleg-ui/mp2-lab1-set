@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5A57EA61-7F89-36A1-9151-310F3FDF25AF}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{DC966B30-85EF-31C4-81C1-B68BB3C2B585}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>test_set</ProjectName>
@@ -38,13 +38,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_set.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test_set</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_set.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test_set</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
@@ -53,8 +53,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -64,16 +64,17 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,8 +87,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/lib/Debug/test_set.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/bin/test_set.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/lib/Debug/test_set.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/bin/test_set.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -96,8 +97,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -105,6 +106,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -113,10 +115,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\include;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\gtest;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\olejk\Desktop\mp2-lab1-set\include;C:\Users\olejk\Desktop\mp2-lab1-set\gtest;C:\Users\olejk\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,8 +131,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/lib/Release/test_set.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/bin/test_set.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/lib/Release/test_set.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/bin/test_set.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -138,10 +140,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\olejk\Desktop\mp2-lab1-set\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/olejk/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhafjarov.o/Desktop/mp2-lab1-set -BC:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17) --check-stamp-file C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/test/CMakeFiles/generate.stamp
+F:\Cmake\bin\cmake.exe -SC:/Users/olejk/Desktop/mp2-lab1-set -BC:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17) --check-stamp-file C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,12 +151,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/test/CMakeLists.txt;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\CMakeLists.txt;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/olejk/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhafjarov.o/Desktop/mp2-lab1-set -BC:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17) --check-stamp-file C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/sln/Build(vc17)/test/CMakeFiles/generate.stamp
+F:\Cmake\bin\cmake.exe -SC:/Users/olejk/Desktop/mp2-lab1-set -BC:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17) --check-stamp-file C:/Users/olejk/Desktop/mp2-lab1-set/sln/Build(vc17)/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -162,28 +164,34 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/zhafjarov.o/Desktop/mp2-lab1-set/test/CMakeLists.txt;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\CMakeLists.txt;C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\test_main.cpp" />
-    <ClCompile Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\test_tbitfield.cpp" />
-    <ClCompile Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\test\test_tset.cpp" />
+    <ClCompile Include="C:\Users\olejk\Desktop\mp2-lab1-set\test\test_main.cpp" />
+    <ClCompile Include="C:\Users\olejk\Desktop\mp2-lab1-set\test\test_tbitfield.cpp" />
+    <ClCompile Include="C:\Users\olejk\Desktop\mp2-lab1-set\test\test_tset.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\ZERO_CHECK.vcxproj">
-      <Project>{C109BDC0-B4C6-36AB-99BF-1C265F0A025F}</Project>
+    <ProjectReference Include="C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\ZERO_CHECK.vcxproj">
+      <Project>{3220BD07-08D9-317B-B235-CDC5E9C0A231}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\gtest\gtest.vcxproj">
-      <Project>{62E0924D-CAD2-3B33-8DE8-8D9273A2F6C6}</Project>
+    <ProjectReference Include="C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\gtest\gtest.vcxproj">
+      <Project>{39AD513C-1B57-3278-A5D7-024FF8B9B2D9}</Project>
       <Name>gtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhafjarov.o\Desktop\mp2-lab1-set\sln\Build(vc17)\src\set.vcxproj">
-      <Project>{5AC7670F-4E56-35EB-92DC-C87CA81710F0}</Project>
+    <ProjectReference Include="C:\Users\olejk\Desktop\mp2-lab1-set\sln\Build(vc17)\src\set.vcxproj">
+      <Project>{0F17A644-69BA-3410-A707-29A3E42774BB}</Project>
       <Name>set</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
